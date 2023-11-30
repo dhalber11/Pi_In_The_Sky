@@ -24,8 +24,8 @@ For this assignment we are given a very broad range of possibilities. The criter
 * Screws
 * Wax paper/covering for frame
 <img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/2%20Planes.png?raw=true" width= 300>
-This is a possible testing glider
 
+##### This is a possible testing glider
 &nbsp;
 
 ### Objectives
@@ -35,7 +35,9 @@ Those are:
 * Tracking Hang Time
 ### Sketches + Images
 <img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/2%20Wings.png?raw=true" width= 300>
-This is what our wings will most likely look like with a paper covering
+
+##### This is what our wings will most likely look like with a paper-covering
+
 ### Rail-Launched Glider 
 #### Pros
 * Satisfaction of launch by hand
