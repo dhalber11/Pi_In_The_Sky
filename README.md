@@ -24,7 +24,7 @@ For this assignment we are given a very broad range of possibilities. The criter
 * Screws
 * Wax paper/covering for frame
 <img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/2%20Planes.png?raw=true" width= 300>
-##### This is a possible testing glider
+This is a possible testing glider
 
 &nbsp;
 
@@ -33,6 +33,7 @@ These objectives mainly encompass the values that we want to track during our fl
 Those are: 
 * Tracking Altitude
 * Tracking Hang Time
+### Sketches
 
 ### Rail-Launched Glider 
 #### Pros
