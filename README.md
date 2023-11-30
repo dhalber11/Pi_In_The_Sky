@@ -1,10 +1,8 @@
 # Pi_In_The_Sky- 2023/24
 ## Grant Gastinger and Dylan Halbert
 &nbsp;
-
 ## Table of Contents
 * [Project_Proposal]()
-*
 &nbsp;
 ## Project Proposal
 ### Criteria
@@ -26,10 +24,9 @@ For this assignment we are given a very broad range of possibilities. The criter
 * Screws
 * Wax paper/covering for frame
 <img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/2%20Planes.png?raw=true" width= 300>
-
 ##### This is a possible testing glider
 
-
+&nbsp;
 
 ### Objectives
 These objectives mainly encompass the values that we want to track during our flight. 
@@ -39,12 +36,16 @@ Those are:
 
 ### Rail-Launched Glider 
 #### Pros
-* Its basically a railgun
+* Satisfaction of launch by hand
+* Starts with a high acceleration (Cooler data?)
+* Plane could be bigger
+* More control of the aim
 #### Cons 
 * Low start height(less distance)
-* 
-
-
+* Might not get too high
+* Good rubber bands may be hard to find
+* Difficult to fabricate launch rail
+&nbsp;
 ### Drone-Dropped Glider
 #### Pros 
 * Constant controllable start altitude'
@@ -53,6 +54,14 @@ Those are:
 #### Cons
 * Limited weight
 * Limited flying conditions
-
-
 &nbsp;
+### The Look of Success
+If we are successful, our glider will soar through the air for a decent amount of time and collect the hang time and altitude while doing so. The glider will not crash in a hard way that destroys any of its mechanics. The data will then be put into a neat graph that interestingly shows the data. 
+&nbsp;
+### Schedule/Milestones
+* Finish Planning - First week of December
+* Initial Code (works on the ground) done - End of January 
+* Rough Prototype that just flies by hand - End of January
+* Prototype complete - 2/28
+* Ready for Launch - 3/30
+* Everything Finished - 5/19
