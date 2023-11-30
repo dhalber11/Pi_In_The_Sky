@@ -33,8 +33,9 @@ These objectives mainly encompass the values that we want to track during our fl
 Those are: 
 * Tracking Altitude
 * Tracking Hang Time
-### Sketches
-
+### Sketches + Images
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/2%20Wings.png?raw=true" width= 300>
+This is what our wings will most likely look like with a paper covering
 ### Rail-Launched Glider 
 #### Pros
 * Satisfaction of launch by hand
