@@ -12,7 +12,7 @@ altimeter = adafruit_mpl3115a2.MPL3115A2(i2c, address=0x60)
 mpu = adafruit_mpu6050.MPU6050(i2c) # Sets up the MPU
 
 startAlt = altimeter.altitude
-releaseAlt = 10000
+releaseAlt = 3
 dropped = False
 
 with open("/data.csv", "a") as datalog: #When Data Mode is Active
