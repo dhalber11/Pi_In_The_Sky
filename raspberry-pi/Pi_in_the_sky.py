@@ -3,6 +3,7 @@ import board
 import time
 import adafruit_mpu6050
 import busio
+import adafruit_mpl3115a2
 
 sda_pin = board.GP14 #Sets the sda pin
 scl_pin = board.GP15 #Sets the scl pin
