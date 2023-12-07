@@ -8,8 +8,8 @@ sda_pin = board.GP14 #Sets the sda pin
 scl_pin = board.GP15 #Sets the scl pin
 i2c = busio.I2C(scl_pin, sda_pin) # Connects the sda and scl to i2c
 
-sensor = LSM6DSOX(i2c, address)
 
+sensor = LSM6DSOX(i2c, address=0x6a)
 altimeter = adafruit_mpl3115a2.MPL3115A2(i2c, address=0x60)
 
 startAlt = altimeter.altitude
