@@ -18,16 +18,24 @@ dropped = False
 
 with open("/data.csv", "a") as datalog: # When Data Mode is Active
     while True:
+        datalog.write(f"{time.monotonic},{altimeter.altitude}")
+        datalog.flush() # Save the data
+
         displaceAlt = altimeter.altitude - startAlt
         if displaceAlt >= releaseAlt:
+            datalog.write(f"Time(s),X-accel,Y-accel,Z-accel,X-tilt,Y-tilt,Z-tilt,Altitude(m)\n") # Put the data into a chart
             dropped = True
+
         while dropped == True:
             time_elapsed = time.monotonic()
             Xaccel = sensor.acceleration[0] # Reads the X acceleration
             Yaccel = sensor.acceleration[1]
             Zaccel = sensor.acceleration[2]
             Alt = altimeter.altitude
+            Xtilt = sensor.gyro[0]
+            Ytilt = sensor.gyro[1]
+            Ztilt = sensor.gyro[2]
 
-            datalog.write(f"{time_elapsed},{Xaccel},{Yaccel},{Zaccel},{Alt}\n") # Put the data into a chart
+            datalog.write(f"{time_elapsed},{Xaccel},{Yaccel},{Zaccel},{Xtilt},{Ytilt},{Ztilt},{Alt}\n") # Put the data into a chart
             datalog.flush() # Save the data
             time.sleep(.1)
