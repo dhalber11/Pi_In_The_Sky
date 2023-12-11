@@ -1,3 +1,4 @@
+#type:ignore
 import time
 import board
 import busio
@@ -17,13 +18,14 @@ releaseAlt = 3
 dropped = False
 
 with open("/data.csv", "a") as datalog: # When Data Mode is Active
+    datalog.write("Time(s),X-accel,Y-accel,Z-accel,X-tilt,Y-tilt,Z-tilt,Altitude(m)\n") # Put the data into a chart
+    datalog.flush
     while True:
-        datalog.write(f"{time.monotonic},{altimeter.altitude}")
+        time_elapsed = time.monotonic()
+        datalog.write(f"{time_elapsed}, , , , , , ,{altimeter.altitude}\n")
         datalog.flush() # Save the data
-
         displaceAlt = altimeter.altitude - startAlt
         if displaceAlt >= releaseAlt:
-            datalog.write(f"Time(s),X-accel,Y-accel,Z-accel,X-tilt,Y-tilt,Z-tilt,Altitude(m)\n") # Put the data into a chart
             dropped = True
 
         while dropped == True:
