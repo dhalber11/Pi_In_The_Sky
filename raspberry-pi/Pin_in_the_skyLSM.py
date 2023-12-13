@@ -22,7 +22,7 @@ with open("/data.csv", "a") as datalog: # When Data Mode is Active
     datalog.flush
     while True:
         time_elapsed = time.monotonic()
-        datalog.write(f"{time_elapsed}, , , , , , ,{altimeter.altitude}\n")
+        datalog.write(f"{time_elapsed}, , ,{Zaccel}, , , ,{altimeter.altitude}\n")
         datalog.flush() # Save the data
         displaceAlt = altimeter.altitude - startAlt
         if displaceAlt >= releaseAlt:
