@@ -18,4 +18,4 @@ py += ((vy + vy0)/2) * (t - t0);
 
 pz += ((vz + vz0)/2) * (t - t0);
 
-<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Wiring.png?raw=true" width= 300>
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Wiring.jpg?raw=true" width= 300>
