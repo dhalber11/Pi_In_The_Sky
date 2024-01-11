@@ -14,30 +14,38 @@ sensor = LSM6DSOX(i2c, address=0x6a)
 altimeter = adafruit_mpl3115a2.MPL3115A2(i2c, address=0x60)
 
 startAlt = altimeter.altitude
-releaseAlt = 3
+releaseAlt = .001
 dropped = False
 
 with open("/data.csv", "a") as datalog: # When Data Mode is Active
-    datalog.write("Time(s),X-accel,Y-accel,Z-accel,X-tilt,Y-tilt,Z-tilt,Altitude(m)\n") # Put the data into a chart
+    #datalog.write("Time(s),X-accel,Y-accel,Z-accel,X-tilt,Y-tilt,Z-tilt,Altitude(m)\n") # Put the data into a chart
+    datalog.write(f"time_elapsed,X-accel,Y-accel,Z-accel,Xvelocity,Yvelocity,Zvelocity,Alt")
     datalog.flush
     while True:
         time_elapsed = time.monotonic()
-        datalog.write(f"{time_elapsed}, , ,{Zaccel}, , , ,{altimeter.altitude}\n")
-        datalog.flush() # Save the data
+        #datalog.write(f"{time_elapsed}, , , , , , ,{altimeter.altitude}\n")
+        #datalog.flush() # Save the data
         displaceAlt = altimeter.altitude - startAlt
         if displaceAlt >= releaseAlt:
             dropped = True
 
         while dropped == True:
             time_elapsed = time.monotonic()
-            Xaccel = sensor.acceleration[0] # Reads the X acceleration
-            Yaccel = sensor.acceleration[1]
-            Zaccel = sensor.acceleration[2]
+            Xa = sensor.acceleration[0] # Reads the X acceleration
+            Ya = sensor.acceleration[1]
+            Za = sensor.acceleration[2]
             Alt = altimeter.altitude
-            Xtilt = sensor.gyro[0]
-            Ytilt = sensor.gyro[1]
-            Ztilt = sensor.gyro[2]
+            Xg = sensor.gyro[0]
+            Yg = sensor.gyro[1]
+            Zg = sensor.gyro[2]
 
-            datalog.write(f"{time_elapsed},{Xaccel},{Yaccel},{Zaccel},{Xtilt},{Ytilt},{Ztilt},{Alt}\n") # Put the data into a chart
+            time.sleep(.2)
+
+            Xv = ((sensor.acceleration[0] + Xaccel)/2) * (time.monotonic() - time_elapsed)
+            Yv = ((sensor.acceleration[1] + Yaccel)/2) * (time.monotonic() - time_elapsed)
+            Zv = ((sensor.acceleration[2] + Zaccel)/2) * (time.monotonic() - time_elapsed)
+
+            
+            #datalog.write(f"{time_elapsed},{Xa},{Ya},{Za},{Xg},{Yg},{Zg},{Xv},{Yv},{Zv},{Alt}\n") # Put the data into a chart
+            datalog.write(f"{time_elapsed},{Xa},{Ya},{Za},{Xv},{Yv},{Zv}\n")
             datalog.flush() # Save the data
-            time.sleep(.1)
