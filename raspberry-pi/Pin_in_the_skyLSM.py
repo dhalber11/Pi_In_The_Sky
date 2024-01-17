@@ -19,7 +19,7 @@ dropped = False
 
 with open("/data.csv", "a") as datalog: # When Data Mode is Active
     #datalog.write("Time(s),X-accel,Y-accel,Z-accel,X-tilt,Y-tilt,Z-tilt,Altitude(m)\n") # Put the data into a chart
-    datalog.write(f"time_elapsed,X-accel,Y-accel,Z-accel,Xvelocity,Yvelocity,Zvelocity,Alt")
+    datalog.write(f"time_elapsed,X-accel,Y-accel,Z-accel,Xvelocity,Yvelocity,Zvelocity,Xposition,Yposition,Zposition,Alt")
     datalog.flush
     while True:
         time_elapsed = time.monotonic()
@@ -31,21 +31,23 @@ with open("/data.csv", "a") as datalog: # When Data Mode is Active
 
         while dropped == True:
             time_elapsed = time.monotonic()
-            Xa = sensor.acceleration[0] # Reads the X acceleration
-            Ya = sensor.acceleration[1]
-            Za = sensor.acceleration[2]
             Alt = altimeter.altitude
             Xg = sensor.gyro[0]
             Yg = sensor.gyro[1]
             Zg = sensor.gyro[2]
 
-            time.sleep(.2)
+            Xa = sensor.acceleration[0] # Reads the X acceleration
+            Ya = sensor.acceleration[1]
+            Za = sensor.acceleration[2]
 
-            Xv = ((sensor.acceleration[0] + Xaccel)/2) * (time.monotonic() - time_elapsed)
-            Yv = ((sensor.acceleration[1] + Yaccel)/2) * (time.monotonic() - time_elapsed)
-            Zv = ((sensor.acceleration[2] + Zaccel)/2) * (time.monotonic() - time_elapsed)
-
+            Xv = Xv + (Xa * (time.monotonic() - time_elapsed))
+            Yv = Yv + (Ya * (time.monotonic() - time_elapsed))
+            Zv = Zv + (Za * (time.monotonic() - time_elapsed))
+           
+            Xp = Xp + (Xv * (time.monotonic() - time_elapsed))
+            Yp = Yp + (Yv * (time.monotonic() - time_elapsed))
+            Zp = Zp + (Zv * (time.monotonic() - time_elapsed))
             
             #datalog.write(f"{time_elapsed},{Xa},{Ya},{Za},{Xg},{Yg},{Zg},{Xv},{Yv},{Zv},{Alt}\n") # Put the data into a chart
-            datalog.write(f"{time_elapsed},{Xa},{Ya},{Za},{Xv},{Yv},{Zv}\n")
+            datalog.write(f"{time_elapsed},{Xa},{Ya},{Za},{Xv},{Yv},{Zv},{Xp},{Yp},{Zp},\n")
             datalog.flush() # Save the data
