@@ -60,7 +60,7 @@ Those are:
 * Limited flying conditions
 &nbsp;
 ### The Look of Success
-If we are successful, our glider will soar through the air for a decent amount of time and collect the hang time and altitude while doing so. The glider will not crash in a hard way that destroys any of its mechanics. The data will then be put into a neat graph that interestingly shows the data. 
+If we are successful, our glider will soar through the air for a decent amount of time and collect the hang time and altitude while doing so. The glider will not crash in a hard way that destroys any of its mechanics. The data will then be graphed in an easily comprehensible way. 
 &nbsp;
 ### Schedule/Milestones
 * Finish Planning - First week of December
