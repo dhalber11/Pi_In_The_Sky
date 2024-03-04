@@ -36,6 +36,7 @@ Those are:
 ### Sketches + Images
 <img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/2%20Wings.png?raw=true" width= 300>
 <img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Sketches.jpg?raw=true" width= 1000>
+
 ##### This is what our wings will most likely look like with a paper-covering
 
 ### Rail-Launched Glider 
@@ -64,8 +65,31 @@ If we are successful, our glider will soar through the air for a decent amount o
 &nbsp;
 ### Schedule/Milestones
 * Finish Planning - First week of December
-* Initial Code (works on the ground) done - End of January 
+* Initial Code (works on the ground) done - End of January
 * Rough Prototype that just flies by hand - End of January
 * Prototype complete - 2/28
 * Ready for Launch - 3/30
 * Everything Finished - 5/19
+
+## The Project
+After reviewing the possibilities and looking over options and logistics for both of the above options. We settled on the drone dropped version of this glider. This would use a simple servo mechanism to drop the glider at a certain altitude. As well as capture in flight data as it <falls> glides to the ground
+### Finalized Materials
+* Basswood and Balsa (Fuselage and wings)
+* Dowels (Wing struts)
+* ABS (Main body supports)
+* Clear thermoplastic (Initial Prototype Wing covering)
+* Paper (Wing covering)
+* Pico W (with Pi Cowbell)
+* Accelerometer
+* Servo
+* Altimeter
+* Switch and Battery
+
+
+### Initial Code
+
+### Initial Cad
+Cad for this project was started with the wings. Using a community sourced feature studio that allowed for the use and generation of NACA airfoils in Onshape. This was extremely helpful to design and test many different airfoils quickly.
+
+
+###
