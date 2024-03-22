@@ -87,9 +87,31 @@ After reviewing the possibilities and looking over options and logistics for bot
 
 
 ### Initial Code
+We already had the data collection set up from our previous code assignments in class (Data Part 1 and 2) so that was what we used.
 
 ### Initial Cad
 Cad for this project was started with the wings. Using a community sourced feature studio that allowed for the use and generation of NACA airfoils in Onshape. This was extremely helpful to design and test many different airfoils quickly.
 
 
-###
+## Week by Week 
+
+### Week 1 (1/8 - 1/12) 
+#### Code Progress
+This week I designed a system that would record the initial altitude and subtract that from the current altitude to find the height off the ground. When the height reaches a certain altitude (3 meters for testing) it will say that the plane has dropped and data collection will start. Using this system we will only record the necessary data of the actual flight and not the movement before.
+
+#### CAD Progress
+
+
+### Week 2 (1/15 - 1/19) 
+#### Code Progress
+After some testing with the MPU 6050 and analyzing data, I realized that the data it produced was highly inaccurate. I realized that for our objectives, this microcomputer would not work. After some research, I found out that a sister to the MPU, the LSM, uses the same syntax but is much more accurate and precise with data. We got the LSM up and running this week after some trouble with library calling syntaxes.
+
+#### CAD Progress
+
+### Week 3 (1/22 - 1/26) 
+#### Code Progress
+At this point I was getting very solid data but it was a complete mess and would be almost impossible to read if you hadn't written the code. I wrote some code to organize the data in to columns with relation to time. I also put headers in so we could put this data into a google chart and graph it.
+
+#### CAD Progress
+
+
