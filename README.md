@@ -100,27 +100,28 @@ Cad for this project was started with the wings. Using a community sourced featu
 This week I designed a system that would record the initial altitude and subtract that from the current altitude to find the height off the ground. When the height reaches a certain altitude (3 meters for testing) it will say that the plane has dropped and data collection will start. Using this system we will only record the necessary data of the actual flight and not the movement before.
 
 #### CAD Progress
-
+For the first week of CAD testing I wanted to make sure that the most difficult and lengthy design process came first. Looking at all of the options I figured out that the wings would be the most lengthy process and I tried to free hand design some ailerons, as our idea was to make many aielerons and cover them in some substance. This quickly proved to be difficult and I ended up finding an online feature studio that allows the user to generate ailerons in a very efficient manner. This allowed me to use NACA digits to make airfoils, which I spent this week working on.
 
 ### Week 2 (1/15 - 1/19) 
 #### Code Progress
 After some testing with the MPU 6050 and analyzing data, I realized that the data it produced was highly inaccurate. I realized that for our objectives, this microcomputer would not work. After some research, I found out that a sister to the MPU, the LSM, uses the same syntax but is much more accurate and precise with data. We got the LSM up and running this week after some trouble with library calling syntaxes.
 
 #### CAD Progress
+Following some tweaking and continued work on the wings we came up with a system of using three bamboo skewers to hold the wings together and as the base of our wings. I then started the process of designing a fuselage to attach to the wings that I had already designed. Thinking back to this moment, I would reccomend that I had started with the fuselage and then designed the wings based off of that. My reasoning being simply making the weight more evenly dispersed with the entire fuselage and being able to place the wings more specifically.
 
 ### Week 3 (1/22 - 1/26) 
 #### Code Progress
 At this point, I was getting very solid data but it was a complete mess and would be almost impossible to read if you hadn't written the code. I wrote some code to organize the data into columns in relation to time. I also put headers in so we could put this data into a Google chart and graph it.
 
 #### CAD Progress
-
+Week three continued the process of designing the fuselage and making improvements and tweaks to the fit and design of the whole body. This was a relatively quick process for version 1 as there was not much extensive design with the fuselage. The general design was  
 
 ### Week 4 (1/29 - 2/2) 
 #### Code Progress
 Wiring week! This week I organized all the wires and planned where I would solder all of the wires on the prototyping shield for the pico. This was a very difficult task because I only had limited space on the pico shield and I had a lot of pins that I had to place on the board. I also ended up soldering the shield on the board the wrong way which was a big setback. However, by the end of the week, I had the shield on the board correctly and a plan of where I would fix the wires.
 
 #### CAD Progress
-
+This week I began the first fabrication and making of the v.1 wings. I decided to use plastic sheeting that we had spare in the back of the lab from covid times, it used to be used for face masks and seemed to work wonders as a shrink wrap for the ailerons on the wings. Using a heat gun I went along and tried to secure it down, eventually with the help of some hot glue it was done. However the issue that arose was the weight along with the finish of the plastic on the wings. There was a large amount of bumps and rough patches on the wings from where the heat gun either hadn't been or had burnt the plastic. This left a rough and unproffesional looking finish on the wings that coupled with the weight was not something I was happy with. Although they were wings that looked the part. 
 
 ### Week 5 (2/5 - 2/9) 
 #### Code Progress
@@ -142,3 +143,20 @@ Launch week! Not much happened on the code side of things because most of our en
 
 
 #### CAD Progress
+
+### Week 8 (2/26 - 3/1)
+#### Code Progress
+
+#### CAD Progress 
+
+### Week 9 (3/4 - 3/8)
+#### Code Progress
+
+#### CAD Progress
+
+### Week 10 (3/11 - 3/15)
+#### Code Progress
+
+#### CAD Progress
+
+### Week 11 (3/18 - 3/22)
