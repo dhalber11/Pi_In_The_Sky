@@ -140,7 +140,7 @@ Launch week! Not much happened on the code side of things because most of our en
 
 ### Week 7 (2/19 - 2/23) 
 #### Code Progress
-
+Data analyzing week. I imported the data from an Excel file on the board into a Google sheet. The data was already formatted into organized columns based on acceleration and altitude so there wasn't much I needed to do there. However, I wanted to see what the data was actually saying so I graphed it on the Google sheet. The altitude was pretty clear except for a few outliers but the acceleration was all over the place so now I knew what I needed to focus on for the next few weeks.
 
 #### CAD Progress
 
