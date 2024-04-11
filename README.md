@@ -133,24 +133,26 @@ This was the big week for soldering. Luckily it went pretty smoothly with the he
 
 ### Week 6 (2/12 - 2/16) 
 #### Code Progress
-Launch week! Not much happened on the code side of things because most of our energy went to preparing the plane for launch. The data tracking was tested as we threw our first prototype off the hill next to the CHS student parking lot. The plane itself had some rough flights but we got the data that we needed for analyzing. I would consider this test a success on the code side of things because it recorded the data at the correct height and the modules stayed intact throughout all of the tests.
+Launch week! Not much happened on the code side of things because most of our energy went to preparing the plane for launch. The data tracking was tested as we threw our first prototype off the hill next to the CHS student parking lot. The plane itself had some rough flights but we got the data that we needed. I would consider this test a success on the code side of things because it recorded the data at the correct height and the modules stayed intact throughout all of the tests.
 
 #### CAD Progress
 
 
 ### Week 7 (2/19 - 2/23) 
 #### Code Progress
-Data analyzing week. I imported the data from an Excel file on the board into a Google sheet. The data was already formatted into organized columns based on acceleration and altitude so there wasn't much I needed to do there. However, I wanted to see what the data was actually saying so I graphed it on the Google sheet. The altitude was pretty clear except for a few outliers but the acceleration was all over the place so now I knew what I needed to focus on for the next few weeks.
+Data analyzing week. I imported the data from an Excel file on the board into a Google sheet. The data was already formatted into organized columns based on acceleration and altitude so there wasn't much I needed to do there. However, I wanted to see what the data was saying more clearly so I graphed it on the Google sheet. The altitude was pretty clear except for a few outliers but the acceleration was all over the place. The next few weeks will need to be dedicated to smoothing out the acceleration readings and making more sense of them.
 
 #### CAD Progress
 
 ### Week 8 (2/26 - 3/1)
 #### Code Progress
+This week I took a lesson from Paul Weder on how to filter data using the Pico. He uses a lot of niche libraries that can find what points are outliers and give them less weight on the average curve. Next, he used the trapezoid rule to take the integral of the acceleration curve and find its velocity and then position. I tried setting this method up on my computer but it didn't work because I had admin restrictions on the libraries I could download. Paul used his own computer so he didn't have that problem. After checking this out for a week, I realized it wouldn't work because crucial libraries like scipy were restricted.
 
 #### CAD Progress 
 
 ### Week 9 (3/4 - 3/8)
 #### Code Progress
+
 
 #### CAD Progress
 
