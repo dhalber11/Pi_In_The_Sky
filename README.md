@@ -128,7 +128,7 @@ This week I began the first fabrication and making of the v.1 wings. I decided t
 This was the big week for soldering. Luckily it went pretty smoothly with the headers and main modules getting locked in within the first few days. I did have to double-solder some pins to 3v because there was only one pin on the board that provided this voltage. Additionally, there wasn't much space on the breadboard part of the shield so I had to have the battery floating around with only connections through the female-male wires which are traditionally meant to be soldered. However, it all worked in the end as the code ran with no problems on the soldered product.
 
 #### CAD Progress
-
+This week was basically a continuation of the last. Already seeing flaws in the first way of making the wings I knew there was a lot to be improved upon. The see-through wings was a good solution but it did not have the benefits of weight reduction. This brought me to think of other options but still reinforce the wings even more to prepare for next weeks launch. The wings also had a sag to them as they were not connected through the body of the plane, this brought a lot of flex to them that may have hurt the efficiency. To counteract this we tried to add a wire that ran along the top of the plane to each wingtip to support the wings. 
 
 
 ### Week 6 (2/12 - 2/16) 
@@ -136,14 +136,14 @@ This was the big week for soldering. Luckily it went pretty smoothly with the he
 Launch week! Not much happened on the code side of things because most of our energy went to preparing the plane for launch. The data tracking was tested as we threw our first prototype off the hill next to the CHS student parking lot. The plane itself had some rough flights but we got the data that we needed. I would consider this test a success on the code side of things because it recorded the data at the correct height and the modules stayed intact throughout all of the tests.
 
 #### CAD Progress
-
+This week brought a lot of lessons learned. The launch was not as great a success as hoped and the plane barely had any lift. We attributed this to the wing size and weight of the plane as well as where our CG(Center of Gravity) was located. This brought a lot of ideas for weight reduction and also new longer wings that used thicker and straighter dowels. These we found, would run through the entire body of the plane and fix the wings to a certain angle. This was helpful to increase stability and keep the wings straight. I also looked for options to move away from the plastic covering on the wings. To solve this we used paper normally used for teachers posters and room decoration. This was surprisingly lightweight and similar in texture to a thicker tissue paper so it provided a much cleaner finish over the wings without the cost of weight.
 
 ### Week 7 (2/19 - 2/23) 
 #### Code Progress
 Data analyzing week. I imported the data from an Excel file on the board into a Google sheet. The data was already formatted into organized columns based on acceleration and altitude so there wasn't much I needed to do there. However, I wanted to see what the data was saying more clearly so I graphed it on the Google sheet. The altitude was pretty clear except for a few outliers but the acceleration was all over the place. The next few weeks will need to be dedicated to smoothing out the acceleration readings and making more sense of them.
 
 #### CAD Progress
-
+This week was focused on improving and fabricating v.2. Looking back I do wish that we had taken more time to work on this and think through issues that may have arisen from the changing of the plane. This was a roughly smooth week however and the wings were coming along well. The new solution with paper was very helpful. 
 ### Week 8 (2/26 - 3/1)
 #### Code Progress
 This week I took a lesson from Paul Weder on how to filter data using the Pico. He uses a lot of niche libraries that can find what points are outliers and give them less weight on the average curve. Next, he used the trapezoid rule to take the integral of the acceleration curve and find its velocity and then position. I tried setting this method up on my computer but it didn't work because I had admin restrictions on the libraries I could download. Paul used his own computer so he didn't have that problem. After checking this out for a week, I realized it wouldn't work because crucial libraries like scipy were restricted.
