@@ -152,7 +152,7 @@ This week I took a lesson from Paul Weder on how to filter data using the Pico. 
 
 ### Week 9 (3/4 - 3/8)
 #### Code Progress
-
+This week was the start of the launch dropping mechanism. On the code side of things, the task was rather small because all we had to do was spin a servo to pull out a pin when the plane reached a certain height. My code was already organized to the point where I had separated it into lines that run before the drop and lines that run after. All I had to do was write a line that would make the servo turn to the closed position at the start and a line to open the servo up when the set altitude is reached. The benefits of keeping your code organized are great, especially down the road when you need to add something quickly.
 
 #### CAD Progress
 
