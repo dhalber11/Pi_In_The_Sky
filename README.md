@@ -158,7 +158,18 @@ This week was the start of the launch dropping mechanism. On the code side of th
 
 ### Week 10 (3/11 - 3/15)
 #### Code Progress
+Not much happened in code this week because I had to do some last-minute Onshape and assembly so that we could launch before spring break. However, I did play around with the dropping height to figure out what a good test would be and settled upon 10 meters. 10 meters wasn't too high that it would get destroyed if it crashed but high enough that it would have time to recover and possibly glide before it hit the ground.
 
 #### CAD Progress
 
 ### Week 11 (3/18 - 3/22)
+#### Code Progress
+Launch week (and the last real week before spring break)! The difference in this test was that we were dropping it from the drone as others were just thrown from a hill. There were many problems in this test but I'll just stick to the code ones and let Dylan go over the physical problems. 
+
+#### CAD Progress
+
+### Week 12 (4/8 - 4/12)
+#### Code Progress
+
+
+#### CAD Progress
