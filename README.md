@@ -143,7 +143,7 @@ This week brought a lot of lessons learned. The launch was not as great a succes
 Data analyzing week. I imported the data from an Excel file on the board into a Google sheet. The data was already formatted into organized columns based on acceleration and altitude so there wasn't much I needed to do there. However, I wanted to see what the data was saying more clearly so I graphed it on the Google sheet. The altitude was pretty clear except for a few outliers but the acceleration was all over the place. The next few weeks will need to be dedicated to smoothing out the acceleration readings and making more sense of them.
 
 #### CAD Progress
-This week was focused on improving and fabricating v.2. Looking back I do wish that we had taken more time to work on this and think through issues that may have arisen from the changing of the plane. This was a roughly smooth week however and the wings were coming along well. The new solution with paper was very helpful. 
+This week was focused on improving and fabricating v.2. Looking back I do wish that we had taken more time to work on this and think through issues that may have arisen from the changing of the plane. This was a roughly smooth week however and the wings were coming along well. The new solution with paper was coming along very well as the glue we used held the paper on very nicely. 
 ### Week 8 (2/26 - 3/1)
 #### Code Progress
 This week I took a lesson from Paul Weder on how to filter data using the Pico. He uses a lot of niche libraries that can find what points are outliers and give them less weight on the average curve. Next, he used the trapezoid rule to take the integral of the acceleration curve and find its velocity and then position. I tried setting this method up on my computer but it didn't work because I had admin restrictions on the libraries I could download. Paul used his own computer so he didn't have that problem. After checking this out for a week, I realized it wouldn't work because crucial libraries like scipy were restricted.
@@ -167,7 +167,7 @@ Not much happened in code this week because I had to do some last-minute Onshape
 Launch week (and the last real week before spring break)! The difference in this test was that we were dropping it from the drone as others were just thrown from a hill. There were many problems in this test but I'll just stick to the code ones and let Dylan go over the physical problems. 
 
 #### CAD Progress
-
+For this launch we decided to try out the drone drop system as we were confident that the glider might fly with a little more height. Our first mistake was setting the height to 10 meters where it woudld drop. The next issue was the prop blast from the drone, the down force hit the wings as the drone took of and made the plane swing around wildly almost taking out the drone in the process. This wild swinging is what ended up breaking the drop pin and sending the plane plummeting to the ground. All in all it was a helpful test to show us the fatal flaws in our system. We need to find some way to seperate or immobilize the plane before it is dropped as well as move weight around in the plane to make it more stable in the air. This was the end of V.2 and we moved on to making the third version after this test.
 ### Week 12 (4/8 - 4/12)
 #### Code Progress
 
