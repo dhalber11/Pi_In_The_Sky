@@ -190,18 +190,23 @@ Another issue we had with this launch was that we didn't seal the top up and so 
 
 ### Week 13 (4/15 - 4/19)
 #### Code Progress
-This week I took another look at acceleration and did some tests to see if we could do anything 
+This week I took another look at acceleration and did some tests to see if we could do anything with it. However, the data we were collecting was way too inaccurate so we decided to focus more on elevation data. We borrowed the capsule that Nick and Ali designed and dropped the pico from the balcony to collect data. The elevation height over time was very precise and gave us a good measurement of height over time. I think we are going to pivot to using height instead of acceleration as our main data from the glider.
 
 #### CAD Progress
 
 ### Week 14 (4/22 - 4/26)
 #### Code Progress
-
+This week I had to redesign the servo-dropping mechanism because the top of the plane broke when we changed the size of the plane. I made it a lot more symmetrical so that the weight wouldn't carry it to one side or another. Once we printed it, I had to find all of the angles of the servo again so that I could calculate how far we needed it to turn to pull the pin out. A significant change I made to this system was that the pin was a balsa dowel instead of 3D printed material to reduce friction. On the dowel, I drilled a hole and put a wire through instead of string because that broke last time. This mechanism works a lot cleaner than the previous one because of these changes. 
 
 #### CAD Progress
 
 ### Week 15 (4/29 - 5/3)
 #### Code Progress
+This week our plan was to launch on Thursday or Friday but weather and other issues kept us from going. The only change I made in the code was the drop height which I increased to 20 meters. Other than that I was helping Dylan to assemble this plane and get it ready for flying next week.
 
+#### CAD Progress
+
+### Week 16 (5/6 - 5/10)
+#### Code Progress
 
 #### CAD Progress
