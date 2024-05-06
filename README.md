@@ -122,21 +122,34 @@ Wiring week! This week I organized all the wires and planned where I would solde
 
 #### CAD Progress
 This week I began the first fabrication and making of the v.1 wings. I decided to use plastic sheeting that we had spare in the back of the lab from covid times, it used to be used for face masks and seemed to work wonders as a shrink wrap for the ailerons on the wings. Using a heat gun I went along and tried to secure it down, eventually with the help of some hot glue it was done. However the issue that arose was the weight along with the finish of the plastic on the wings. There was a large amount of bumps and rough patches on the wings from where the heat gun either hadn't been or had burnt the plastic. This left a rough and unproffesional looking finish on the wings that coupled with the weight was not something I was happy with. Although they were wings that looked the part. 
+<img src= "(https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/v1%20top%20down.jpg?raw=true)" width= 300>
+##### This is the first version of V.1 before adding brackets for extra stability
 
 ### Week 5 (2/5 - 2/9) 
 #### Code Progress
 This was the big week for soldering. Luckily it went pretty smoothly with the headers and main modules getting locked in within the first few days. I did have to double-solder some pins to 3v because there was only one pin on the board that provided this voltage. Additionally, there wasn't much space on the breadboard part of the shield so I had to have the battery floating around with only connections through the female-male wires which are traditionally meant to be soldered. However, it all worked in the end as the code ran with no problems on the soldered product.
 
 #### CAD Progress
-This week was basically a continuation of the last. Already seeing flaws in the first way of making the wings I knew there was a lot to be improved upon. The see-through wings was a good solution but it did not have the benefits of weight reduction. This brought me to think of other options but still reinforce the wings even more to prepare for next weeks launch. The wings also had a sag to them as they were not connected through the body of the plane, this brought a lot of flex to them that may have hurt the efficiency. To counteract this we tried to add a wire that ran along the top of the plane to each wingtip to support the wings. 
+This week was basically a continuation of the last. Already seeing flaws in the first way of making the wings I knew there was a lot to be improved upon. The see-through wings was a good solution but it did not have the benefits of weight reduction. This brought me to think of other options but still reinforce the wings even more to prepare for next weeks launch. The wings also had a sag to them as they were not connected through the body of the plane, this brought a lot of flex to them that may have hurt the efficiency. To counteract this we tried to add a wire that ran along the top of the plane to each wingtip to support the wings. On top of this we added brackets to the top and bottom of the body of the fuselage to be able to both hold the wings and keep the box of the fuselage together. 
 
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/assemblyv.1.png?raw=true" width= 300>
+
+##### This is the assembly of the V.1 plane
+
+<img src= "(https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/v1%20side%20view.jpg?raw=true)" width= 300>
+
+##### This is the fully fabricated version of the above CAD assembly, including the new brackets and wire for stability.
 
 ### Week 6 (2/12 - 2/16) 
 #### Code Progress
 Launch week! Not much happened on the code side of things because most of our energy went to preparing the plane for launch. The data tracking was tested as we threw our first prototype off the hill next to the CHS student parking lot. The plane itself had some rough flights but we got the data that we needed. I would consider this test a success on the code side of things because it recorded the data at the correct height and the modules stayed intact throughout all of the tests.
 
 #### CAD Progress
-This week brought a lot of lessons learned. The launch was not as great a success as hoped and the plane barely had any lift. We attributed this to the wing size and weight of the plane as well as where our CG(Center of Gravity) was located. This brought a lot of ideas for weight reduction and also new longer wings that used thicker and straighter dowels. These we found, would run through the entire body of the plane and fix the wings to a certain angle. This was helpful to increase stability and keep the wings straight. I also looked for options to move away from the plastic covering on the wings. To solve this we used paper normally used for teachers posters and room decoration. This was surprisingly lightweight and similar in texture to a thicker tissue paper so it provided a much cleaner finish over the wings without the cost of weight.
+This week brought a lot of lessons learned. The launch was not as great a success as hoped and the plane barely had any lift. We attributed this to the wing size and weight of the plane as well as where our CG(Center of Gravity) was located. This brought a lot of ideas for weight reduction and also new longer wings that used thicker and straighter dowels. These we found, would run through the entire body of the plane and fix the wings to a certain angle. This was helpful to increase stability and keep the wings straight. I also looked for options to move away from the plastic covering on the wings. To solve this we used paper normally used for teachers posters and room decoration. This was surprisingly lightweight and similar in texture to a thicker tissue paper so it provided a much cleaner finish over the wings without the cost of weight. Below is the most succesful flight that we had with the first version. 
+
+<img src= "(https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/v.1success.gif?raw=true)" width= 400>
+
+##### This was our proudest moment thus far
 
 ### Week 7 (2/19 - 2/23) 
 #### Code Progress
@@ -155,7 +168,7 @@ This week I took a lesson from Paul Weder on how to filter data using the Pico. 
 This week was the start of the launch dropping mechanism. On the code side of things, the task was rather small because all we had to do was spin a servo to pull out a pin when the plane reached a certain height. My code was already organized to the point where I had separated it into lines that run before the drop and lines that run after. All I had to do was write a line that would make the servo turn to the closed position at the start and a line to open the servo up when the set altitude is reached. The benefits of keeping your code organized are great, especially down the road when you need to add something quickly.
 
 #### CAD Progress
-
+The dropping mechanism was relatively simple to assemble and complete, however I have to give much of the credit to Grant for this part as he was bored with code and wanted to try his hand at the CAD side of things. This mechanism was an addition to the already designed bracket that can be seen on v.1, we completed this by adding a solid ceiling and then mounting the servo on that. All together it didn't add that much weight as the servo was the only electronics added.
 ### Week 10 (3/11 - 3/15)
 #### Code Progress
 Not much happened in code this week because I had to do some last-minute Onshape and assembly so that we could launch before spring break. However, I did play around with the dropping height to figure out what a good test would be and settled upon 10 meters. 10 meters wasn't too high that it would get destroyed if it crashed but high enough that it would have time to recover and possibly glide before it hit the ground.
