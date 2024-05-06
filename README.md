@@ -175,13 +175,32 @@ Not much happened in code this week because I had to do some last-minute Onshape
 
 #### CAD Progress
 
+
 ### Week 11 (3/18 - 3/22)
 #### Code Progress
-Launch week (and the last real week before spring break)! The difference in this test was that we were dropping it from the drone as others were just thrown from a hill. There were many problems in this test but I'll just stick to the code ones and let Dylan go over the physical problems. 
+Launch week (and the last real week before spring break)! The difference in this test was that we were dropping it from the drone as others were just thrown from a hill. There were many problems in this test but I'll just stick to the code ones and let Dylan go over the physical problems. The problem with the code was that the servo wasn't spinning because a wire was unplugged. The pin was not put in solidly because the servo wasn't getting any voltage. In the future, I will solder the servo wires so that they can stay connected.
 
 #### CAD Progress
 For this launch we decided to try out the drone drop system as we were confident that the glider might fly with a little more height. Our first mistake was setting the height to 10 meters where it woudld drop. The next issue was the prop blast from the drone, the down force hit the wings as the drone took of and made the plane swing around wildly almost taking out the drone in the process. This wild swinging is what ended up breaking the drop pin and sending the plane plummeting to the ground. All in all it was a helpful test to show us the fatal flaws in our system. We need to find some way to seperate or immobilize the plane before it is dropped as well as move weight around in the plane to make it more stable in the air. This was the end of V.2 and we moved on to making the third version after this test.
 ### Week 12 (4/8 - 4/12)
+#### Code Progress
+Another issue we had with this launch was that we didn't seal the top up and so the LSM module flew out when the glider dropped. We spent an entire day searching for it in the grass but ended up just having to use a new one. It took a little while to set this back up with soldering and finding the I2C number of the device. So that this won't happen again, I got into onshape and redesigned the top so that all of the modules would be sealed inside of the plane.
+
+#### CAD Progress
+
+### Week 13 (4/15 - 4/19)
+#### Code Progress
+This week I took another look at acceleration and did some tests to see if we could do anything 
+
+#### CAD Progress
+
+### Week 14 (4/22 - 4/26)
+#### Code Progress
+
+
+#### CAD Progress
+
+### Week 15 (4/29 - 5/3)
 #### Code Progress
 
 
