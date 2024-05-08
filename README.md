@@ -1,6 +1,6 @@
 # Pi_In_The_Sky- 2023/24
 ## Grant Gastinger and Dylan Halbert
-<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Goofy.png?raw=true" width= 300>
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Goofy.png?raw=true" width= 500>
 &nbsp;
 
 ## Table of Contents
@@ -121,6 +121,9 @@ Week three continued the process of designing the fuselage and making improvemen
 ### Week 4 (1/29 - 2/2) 
 #### Code Progress
 Wiring week! This week I organized all the wires and planned where I would solder all of the wires on the prototyping shield for the pico. This was a very difficult task because I only had limited space on the pico shield and I had a lot of pins that I had to place on the board. I also ended up soldering the shield on the board the wrong way which was a big setback. However, by the end of the week, I had the shield on the board correctly and a plan of where I would fix the wires.
+
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Screenshot%2024-04-17%091529.png?raw=true" width= 500>
+Final Wiring Diagram
 
 #### CAD Progress
 This week I began the first fabrication and making of the v.1 wings. I decided to use plastic sheeting that we had spare in the back of the lab from covid times, it used to be used for face masks and seemed to work wonders as a shrink wrap for the ailerons on the wings. Using a heat gun I went along and tried to secure it down, eventually with the help of some hot glue it was done. However the issue that arose was the weight along with the finish of the plastic on the wings. There was a large amount of bumps and rough patches on the wings from where the heat gun either hadn't been or had burnt the plastic. This left a rough and unproffesional looking finish on the wings that coupled with the weight was not something I was happy with. Although they were wings that looked the part. 
