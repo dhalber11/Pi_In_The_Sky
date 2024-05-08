@@ -185,6 +185,7 @@ This week was focused on improving and fabricating v.2. Looking back I do wish t
 This week I took a lesson from Paul Weder on how to filter data using the Pico. He uses a lot of niche libraries that can find what points are outliers and give them less weight on the average curve. Next, he used the trapezoid rule to take the integral of the acceleration curve and find its velocity and then position. I tried setting this method up on my computer but it didn't work because I had admin restrictions on the libraries I could download. Paul used his own computer so he didn't have that problem. After checking this out for a week, I realized it wouldn't work because crucial libraries like scipy were restricted.
 
 #### CAD Progress 
+This week was spent mainly thinking about the design failures that had come in the past and also making sure everything would fit together as it should for the best flight. This was a straightforward week and not many problems arose with things fitting as they should. Overall we were feeling much better about the look and stability of version 2. With the main change being the dowels of the wings going through the body of the plane and extending much farther out on either side. This proved to be the best solution as it got rid of the flex that the previous version had and felt much more stable.
 
 ### Week 9 (3/4 - 3/8)
 #### Code Progress
