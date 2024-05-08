@@ -126,8 +126,10 @@ Wiring week! This week I organized all the wires and planned where I would solde
 Final Wiring Diagram
 
 #### CAD Progress
-This week I began the first fabrication and making of the v.1 wings. I decided to use plastic sheeting that we had spare in the back of the lab from covid times, it used to be used for face masks and seemed to work wonders as a shrink wrap for the ailerons on the wings. Using a heat gun I went along and tried to secure it down, eventually with the help of some hot glue it was done. However the issue that arose was the weight along with the finish of the plastic on the wings. There was a large amount of bumps and rough patches on the wings from where the heat gun either hadn't been or had burnt the plastic. This left a rough and unproffesional looking finish on the wings that coupled with the weight was not something I was happy with. Although they were wings that looked the part. 
-<img src= "(https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/v1%20top%20down.jpg?raw=true)" width= 300>
+This week I began the first fabrication and making of the v.1 wings. I decided to use plastic sheeting that we had spare in the back of the lab from covid times, it used to be used for face masks and seemed to work wonders as a shrink wrap for the ailerons on the wings. Using a heat gun I went along and tried to secure it down, eventually with the help of some hot glue it was done. However the issue that arose was the weight along with the finish of the plastic on the wings. There was a large amount of bumps and rough patches on the wings from where the heat gun either hadn't been or had burnt the plastic. This left a rough and unproffesional looking finish on the wings that coupled with the weight was not something I was happy with. Although they were wings that looked the part.
+
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/v1%20top%20down.jpg?raw=true" width= 300>
+
 ##### This is the first version of V.1 before adding brackets for extra stability
 
 ### Week 5 (2/5 - 2/9) 
@@ -141,7 +143,7 @@ This week was basically a continuation of the last. Already seeing flaws in the 
 
 ##### This is the assembly of the V.1 plane
 
-<img src= "(https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/v1%20side%20view.jpg?raw=true)" width= 300>
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/v1%20side%20view.jpg?raw=true" width= 300>
 
 ##### This is the fully fabricated version of the above CAD assembly, including the new brackets and wire for stability.
 
@@ -152,7 +154,7 @@ Launch week! Not much happened on the code side of things because most of our en
 #### CAD Progress
 This week brought a lot of lessons learned. The launch was not as great a success as hoped and the plane barely had any lift. We attributed this to the wing size and weight of the plane as well as where our CG(Center of Gravity) was located. This brought a lot of ideas for weight reduction and also new longer wings that used thicker and straighter dowels. These we found, would run through the entire body of the plane and fix the wings to a certain angle. This was helpful to increase stability and keep the wings straight. I also looked for options to move away from the plastic covering on the wings. To solve this we used paper normally used for teachers posters and room decoration. This was surprisingly lightweight and similar in texture to a thicker tissue paper so it provided a much cleaner finish over the wings without the cost of weight. Below is the most succesful flight that we had with the first version. 
 
-<img src= "(https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/v.1success.gif?raw=true)" width= 400>
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/v.1success.gif?raw=true" width= 400>
 
 ##### This was our proudest moment thus far
 
