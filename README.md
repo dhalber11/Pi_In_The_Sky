@@ -1,5 +1,6 @@
 # Pi_In_The_Sky- 2023/24
 ## Grant Gastinger and Dylan Halbert
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Goofy.png?raw=true" width= 300>
 &nbsp;
 ## Table of Contents
 * [Project_Proposal]()
