@@ -108,6 +108,11 @@ For the first week of CAD testing I wanted to make sure that the most difficult 
 #### Code Progress
 After some testing with the MPU 6050 and analyzing data, I realized that the data it produced was highly inaccurate. I realized that for our objectives, this microcomputer would not work. After some research, I found out that a sister to the MPU, the LSM, uses the same syntax but is much more accurate and precise with data. We got the LSM up and running this week after some trouble with library calling syntaxes.
 
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Wiring.jpg?raw=true" width= 800>
+
+##### Initial wiring
+
+
 #### CAD Progress
 Following some tweaking and continued work on the wings we came up with a system of using three bamboo skewers to hold the wings together and as the base of our wings. I then started the process of designing a fuselage to attach to the wings that I had already designed. Thinking back to this moment, I would reccomend that I had started with the fuselage and then designed the wings based off of that. My reasoning being simply making the weight more evenly dispersed with the entire fuselage and being able to place the wings more specifically.
 
@@ -122,8 +127,9 @@ Week three continued the process of designing the fuselage and making improvemen
 #### Code Progress
 Wiring week! This week I organized all the wires and planned where I would solder all of the wires on the prototyping shield for the pico. This was a very difficult task because I only had limited space on the pico shield and I had a lot of pins that I had to place on the board. I also ended up soldering the shield on the board the wrong way which was a big setback. However, by the end of the week, I had the shield on the board correctly and a plan of where I would fix the wires.
 
-<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Screenshot%2024-04-17%091529.png?raw=true" width= 500>
-Final Wiring Diagram
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Pi_in_sky_wiring.png?raw=true" width= 300>
+
+##### Final Wiring Diagram
 
 #### CAD Progress
 This week I began the first fabrication and making of the v.1 wings. I decided to use plastic sheeting that we had spare in the back of the lab from covid times, it used to be used for face masks and seemed to work wonders as a shrink wrap for the ailerons on the wings. Using a heat gun I went along and tried to secure it down, eventually with the help of some hot glue it was done. However the issue that arose was the weight along with the finish of the plastic on the wings. There was a large amount of bumps and rough patches on the wings from where the heat gun either hadn't been or had burnt the plastic. This left a rough and unproffesional looking finish on the wings that coupled with the weight was not something I was happy with. Although they were wings that looked the part.
@@ -151,6 +157,8 @@ This week was basically a continuation of the last. Already seeing flaws in the 
 #### Code Progress
 Launch week! Not much happened on the code side of things because most of our energy went to preparing the plane for launch. The data tracking was tested as we threw our first prototype off the hill next to the CHS student parking lot. The plane itself had some rough flights but we got the data that we needed. I would consider this test a success on the code side of things because it recorded the data at the correct height and the modules stayed intact throughout all of the tests.
 
+
+
 #### CAD Progress
 This week brought a lot of lessons learned. The launch was not as great a success as hoped and the plane barely had any lift. We attributed this to the wing size and weight of the plane as well as where our CG(Center of Gravity) was located. This brought a lot of ideas for weight reduction and also new longer wings that used thicker and straighter dowels. These we found, would run through the entire body of the plane and fix the wings to a certain angle. This was helpful to increase stability and keep the wings straight. I also looked for options to move away from the plastic covering on the wings. To solve this we used paper normally used for teachers posters and room decoration. This was surprisingly lightweight and similar in texture to a thicker tissue paper so it provided a much cleaner finish over the wings without the cost of weight. Below is the most succesful flight that we had with the first version. 
 
@@ -161,6 +169,10 @@ This week brought a lot of lessons learned. The launch was not as great a succes
 ### Week 7 (2/19 - 2/23) 
 #### Code Progress
 Data analyzing week. I imported the data from an Excel file on the board into a Google sheet. The data was already formatted into organized columns based on acceleration and altitude so there wasn't much I needed to do there. However, I wanted to see what the data was saying more clearly so I graphed it on the Google sheet. The altitude was pretty clear except for a few outliers but the acceleration was all over the place. The next few weeks will need to be dedicated to smoothing out the acceleration readings and making more sense of them.
+
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Screenshot%202024-04-29%20104007.png?raw=true" width= 800>
+
+##### Data from the first flight of version 1
 
 #### CAD Progress
 This week was focused on improving and fabricating v.2. Looking back I do wish that we had taken more time to work on this and think through issues that may have arisen from the changing of the plane. This was a roughly smooth week however and the wings were coming along well. The new solution with paper was coming along very well as the glue we used held the paper on very nicely. 
@@ -198,6 +210,10 @@ Another issue we had with this launch was that we didn't seal the top up and so 
 ### Week 13 (4/15 - 4/19)
 #### Code Progress
 This week I took another look at acceleration and did some tests to see if we could do anything with it. However, the data we were collecting was way too inaccurate so we decided to focus more on elevation data. We borrowed the capsule that Nick and Ali designed and dropped the pico from the balcony to collect data. The elevation height over time was very precise and gave us a good measurement of height over time. I think we are going to pivot to using height instead of acceleration as our main data from the glider.
+
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Screenshot%202024-04-29%20104307.png?raw=true" width= 500>
+
+##### Balcony drop test data
 
 #### CAD Progress
 
