@@ -120,6 +120,10 @@ Following some tweaking and continued work on the wings we came up with a system
 #### Code Progress
 At this point, I was getting very solid data but it was a complete mess and would be almost impossible to read if you hadn't written the code. I wrote some code to organize the data into columns in relation to time. I also put headers in so we could put this data into a Google chart and graph it.
 
+[https://docs.google.com/spreadsheets/d/1bL5DFgwbq6VJjZEncVd7jcS2bUMOgV8yWQnZ7sQWMYE/edit#gid=0](url)
+
+(Click on this to track our flight data)
+
 #### CAD Progress
 Week three continued the process of designing the fuselage and making improvements and tweaks to the fit and design of the whole body. This was a relatively quick process for version 1 as there was not much extensive design with the fuselage. The general design was  
 
