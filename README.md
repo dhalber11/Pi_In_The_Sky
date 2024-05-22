@@ -246,7 +246,19 @@ This week was spent preparing the plane for dropping as mentioned above. The cod
 
 ##### Here is a simple diagram of what is described above 
 
-### Week 16 (5/6 - 5/10)
-#### Code Progress
+### Final Launch
+#### Code 
 
-#### CAD Progress
+#### CAD 
+This week was the week of the final launch of our plane. With it being the most hopeful and balanced plane we had good hopes for the turnout of its flight. The results were honestly pretty hilarious, everything went perfectly smoothly with the dropping mechanism. Showing that our solution of lengthening the strings as to decrease the prop blast worked well. The plane also dropped just as it reached around 20 meters which was the set height for dropping. All of our code and mechanics worked perfectly as designed. However the plane did not have any forward momentum as it was dropped, so gravity took over and the plane nosedived into the ground, twice. However this was not as much of a failure as we would have thought, all of the parts of the plane that had previously failed in attempting to drop the plane are now working. This in of itself was an accomplishment. We got a pico in the air that recorded data as it came down, regardless of how fast that descent occured. 
+
+### Reflection
+
+* Review of criteria
+* analysis from both viewpoints of whether or not the criteria were met
+* List of failures and how we adapted
+* Successes we are proud of
+* Images to show progression(with comments)
+* 
+ 
+
