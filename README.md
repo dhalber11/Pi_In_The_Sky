@@ -198,7 +198,7 @@ The dropping mechanism was relatively simple to assemble and complete, however I
 Not much happened in code this week because I had to do some last-minute Onshape and assembly so that we could launch before spring break. However, I did play around with the dropping height to figure out what a good test would be and settled upon 10 meters. 10 meters wasn't too high that it would get destroyed if it crashed but high enough that it would have time to recover and possibly glide before it hit the ground.
 
 #### CAD Progress
-
+This week was spent as all the others before launch week. Rushing to make final changes to the plane to make us as confident as possible in its flight. This time was spent finalizing the wings as those were the last on the plane. As the wings were held together by a rodn straight through the plane, the wings once assembled were stuck in the fuselage permanently. Until it inevitably exploded on impact after dropping 20 meters (Foreshadowing). 
 
 ### Week 11 (3/18 - 3/22)
 #### Code Progress
@@ -206,11 +206,15 @@ Launch week (and the last real week before spring break)! The difference in this
 
 #### CAD Progress
 For this launch we decided to try out the drone drop system as we were confident that the glider might fly with a little more height. Our first mistake was setting the height to 10 meters where it woudld drop. The next issue was the prop blast from the drone, the down force hit the wings as the drone took of and made the plane swing around wildly almost taking out the drone in the process. This wild swinging is what ended up breaking the drop pin and sending the plane plummeting to the ground. All in all it was a helpful test to show us the fatal flaws in our system. We need to find some way to seperate or immobilize the plane before it is dropped as well as move weight around in the plane to make it more stable in the air. This was the end of V.2 and we moved on to making the third version after this test.
+
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/v.2drop.gif?raw=true" width= 500>
+
 ### Week 12 (4/8 - 4/12)
 #### Code Progress
 Another issue we had with this launch was that we didn't seal the top up and so the LSM module flew out when the glider dropped. We spent an entire day searching for it in the grass but ended up just having to use a new one. It took a little while to set this back up with soldering and finding the I2C number of the device. So that this won't happen again, I got into onshape and redesigned the top so that all of the modules would be sealed inside of the plane.
 
 #### CAD Progress
+The week following this launch was mainly focused on looking at where the plane had shortcomings. Namely the launch system that failed in the previous test, this was all what we focused on in the next two weeks to attempt to make a glider that flies much better than our previous versions. In general we had not lost the same idea for the overall design of the plane. All the planes thus far follow relatively the same process of design as the one before. I would like to highlight the clear definition of the engineering process here, we continued to design and test and fail, then design again. Always working off of our previous mistakes to make each plane slightly better than the last. Then revealing new issues to solve in the next version. This time along we focused on the ratio of wings to plane and decided it was a little heavy on the wings side. To counteract this we simply moved the wings backwards and raised their angle of attack slightly to hopefully fix the center of gravity issue. 
 
 ### Week 13 (4/15 - 4/19)
 #### Code Progress
@@ -221,18 +225,26 @@ This week I took another look at acceleration and did some tests to see if we co
 ##### Balcony drop test data
 
 #### CAD Progress
+This week was in many ways a continuation of the last. Finding new ways to make the plane more durable and last longer. This week I decided to lengthen the fuselage as well as change the width of the wood to a thicker cut of the same type of basswood. This would spread out the weight to help make it as balanced as possible to improve flight. On top of these changes we made the horizontal stabilizer longer to be able to hopefully increase the amount of lift and stability it produced. All of these changes were simply educated guesses on what was needed to help the plane fly better. However, they were educated based on all of the work we had done over the course of this project to learn more about aerodynamics and the flight of gliders. 
+
 
 ### Week 14 (4/22 - 4/26)
 #### Code Progress
 This week I had to redesign the servo-dropping mechanism because the top of the plane broke when we changed the size of the plane. I made it a lot more symmetrical so that the weight wouldn't carry it to one side or another. Once we printed it, I had to find all of the angles of the servo again so that I could calculate how far we needed it to turn to pull the pin out. A significant change I made to this system was that the pin was a balsa dowel instead of 3D printed material to reduce friction. On the dowel, I drilled a hole and put a wire through instead of string because that broke last time. This mechanism works a lot cleaner than the previous one because of these changes. 
 
 #### CAD Progress
+This week was spent making accomodations to other parts as we changed the width of the fuselage as well as the length. This proved to be a good idea, as we barely increased our weight and the plane truly showed it was able to take a beating. This is something I can safely say we succeeded in. Making the most durable plane, while it may not fly, collected data and protected the pico throughout. All in all the changes made this week were final tweaks that we hoped would change the results for the better. The wings were the last to go on and came out much straighter than before. This was in part due to my practice with the process and also working to find which glue worked best and most efficiently. 
 
 ### Week 15 (4/29 - 5/3)
 #### Code Progress
 This week our plan was to launch on Thursday or Friday but weather and other issues kept us from going. The only change I made in the code was the drop height which I increased to 20 meters. Other than that I was helping Dylan to assemble this plane and get it ready for flying next week.
 
 #### CAD Progress
+This week was spent preparing the plane for dropping as mentioned above. The code was in mainly its final form and we were getting data that seemed accurate to what we expected. The plane was somewhat flying as we tested it in the lab for weight issues. We ended up adding a foam weight behind the wings and main body to attempt to decrease the chance of a nosedive. All of this weighting and balancing is sort of a dance between stalling and nosediving immediately after takeoff. For any plane and especially gliders the weight needs to be near the front of the wings. This is so the main down force is directly where the wing provides lift to most efficiently cause the plane to glide. This is what I belive we were missing in our previous designs. The plane simply did not have a good lift to weight ratio to be able to support it in flight. 
+
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Tail+down+force.png?raw=true" width= 500>
+
+##### Here is a simple diagram of what is described above 
 
 ### Week 16 (5/6 - 5/10)
 #### Code Progress
