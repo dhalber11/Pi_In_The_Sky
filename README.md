@@ -228,7 +228,7 @@ This week I took another look at acceleration and did some tests to see if we co
 ##### Balcony drop test data
 
 #### CAD Progress
-This week was in many ways a continuation of the last. Finding new ways to make the plane more durable and last longer. This week I decided to lengthen the fuselage as well as change the width of the wood to a thicker cut of the same type of basswood. This would spread out the weight to help make it as balanced as possible to improve flight. On top of these changes we made the horizontal stabilizer longer to be able to hopefully increase the amount of lift and stability it produced. All of these changes were simply educated guesses on what was needed to help the plane fly better. However, they were educated based on all of the work we had done over the course of this project to learn more about aerodynamics and the flight of gliders. 
+This week was in many ways a continuation of the last. Finding new ways to make the plane more durable and last longer. This week I decided to lengthen the fuselage as well as change the width of the wood to a thicker cut of the same type of basswood. This would spread out the weight to help make it as balanced as possible to improve flight. We also made the horizontal stabilizer longer to be able to hopefully increase the amount of lift and stability it produced. Finally we added an extra airfoil on the outside of the wings that stuck up to increase stability. All of these changes were simply educated guesses on what was needed to help the plane fly better. However, they were educated based on all of the work we had done over the course of this project to learn more about aerodynamics and the flight of gliders. 
 
 
 ### Week 14 (4/22 - 4/26)
@@ -236,7 +236,12 @@ This week was in many ways a continuation of the last. Finding new ways to make 
 This week I had to redesign the servo-dropping mechanism because the top of the plane broke when we changed the size of the plane. I made it a lot more symmetrical so that the weight wouldn't carry it to one side or another. Once we printed it, I had to find all of the angles of the servo again so that I could calculate how far we needed it to turn to pull the pin out. A significant change I made to this system was that the pin was a balsa dowel instead of 3D printed material to reduce friction. On the dowel, I drilled a hole and put a wire through instead of string because that broke last time. This mechanism works a lot cleaner than the previous one because of these changes. 
 
 #### CAD Progress
-This week was spent making accomodations to other parts as we changed the width of the fuselage as well as the length. This proved to be a good idea, as we barely increased our weight and the plane truly showed it was able to take a beating. This is something I can safely say we succeeded in. Making the most durable plane, while it may not fly, collected data and protected the pico throughout. All in all the changes made this week were final tweaks that we hoped would change the results for the better. The wings were the last to go on and came out much straighter than before. This was in part due to my practice with the process and also working to find which glue worked best and most efficiently. 
+This week was spent making accomodations to other parts as we changed the width of the fuselage as well as the length. This proved to be a good idea, as we barely increased our weight and the plane truly showed it was able to take a beating. This is something I can safely say we succeeded in. Making the most durable plane, while it may not fly for very long, collected data and protected the pico throughout. All in all the changes made this week were final tweaks that we hoped would change the results for the better. The wings were the last to go on and came out much straighter than before. This was in part due to my practice with the process and also working to find which glue worked best and most efficiently. 
+
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/ASSEMBLYv.3%20.png?raw=true" width= 500>
+
+##### This is the final assembly of the v.3 plane
+
 
 ### Week 15 (4/29 - 5/3)
 #### Code Progress
@@ -249,14 +254,34 @@ This week was spent preparing the plane for dropping as mentioned above. The cod
 
 ##### Here is a simple diagram of what is described above 
 
+
+
 ### Final Launch
 #### Code 
-We were crossing our fingers all week for a good flight because this would be our last drop, no matter how it turned out. When we got on the field and turned the pico on, everything looked good because we could feel that  
+We were crossing our fingers all week for a good flight because this would be our last drop, no matter how it turned out. When we got on the field and turned the pico on, everything looked good because we could hear the electricity humming in the servo. The servo was locked into position and as the drone took off, it pulled the drone up with the locked mechanism. Everything was very smooth when the glider reached the drop altitude. The pin was pulled out and with no friction, released the plane into free fall. When it was falling, it collected perfect altitude data that was smoothed into a curve that showed the flight of the plane. On the code side of things, this final launch was a success because the drop mechanism worked perfectly and we got all the data that we needed.
 
 #### CAD 
 This week was the week of the final launch of our plane. With it being the most hopeful and balanced plane we had good hopes for the turnout of its flight. The results were honestly pretty hilarious, everything went perfectly smoothly with the dropping mechanism. Showing that our solution of lengthening the strings as to decrease the prop blast worked well. The plane also dropped just as it reached around 20 meters which was the set height for dropping. All of our code and mechanics worked perfectly as designed. However the plane did not have any forward momentum as it was dropped, so gravity took over and the plane nosedived into the ground, twice. However this was not as much of a failure as we would have thought, all of the parts of the plane that had previously failed in attempting to drop the plane are now working. This in of itself was an accomplishment. We got a pico in the air that recorded data as it came down, regardless of how fast that descent occured. 
 
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Best_Glide-ezgif.com-video-to-gif-converter.gif?raw=true" width= 500>
+
+##### This is the best drop out of the two we did, notice the plane glide slightly after it leaves the drone.
+
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Dive_Bomb-ezgif.com-video-to-gif-converter.gif?raw=true" width= 500>
+
+##### Here is the less succesful second flight, both flights gathered clean data however. 
+
+
 ### Reflection
+
+### Important Links
+
+
+### Review of Criteria
+* Survivability: the payload (RPi Pico, sensors, etc) must survive and function post-flight.
+* Custom circuit board: breadboards are for prototyping, not for finished products.  Solder headers onto your board so everything is compact but you can add/remove the Pico and other sensors.
+* Data collection: your payload must collect data throughout the flight and save that data to the Pico’s onboard storage. Examples: spin rate (MPU6050), altitude (MPL3115A2), location (GPS).
+* Data presentation: Show off the data you collected! Plot the data in some way that is meaningful to your project.
 
 * Review of criteria
 * analysis from both viewpoints of whether or not the criteria were met
