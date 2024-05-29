@@ -282,6 +282,12 @@ This week was the week of the final launch of our plane. With it being the most 
 * Custom circuit board: breadboards are for prototyping, not for finished products.  Solder headers onto your board so everything is compact but you can add/remove the Pico and other sensors.
 * Data collection: your payload must collect data throughout the flight and save that data to the Pico’s onboard storage. Examples: spin rate (MPU6050), altitude (MPL3115A2), location (GPS).
 * Data presentation: Show off the data you collected! Plot the data in some way that is meaningful to your project.
+  
+Looking back at our criteria, our project was very successful because we met all the points we needed to. Our glider survived many drops with impressive durability. The pico and the payload never were damaged and stayed inside of the plane. We did make a custom circuit board with everything soldered except for modules such as the LSM and the Altimeter which slid into headers. Our glider did collect data from the time it was dropped until it landed. That data included acceleration, time, and altitude. The acceleration was very spotty and difficult to read so the main thing we graphed was altitude over time. We took averages of the altitude to make the curve smoother and more presentable. You can see in both of our altitude graphs that the one that was gliding for a bit flew for two more seconds than the one that just dive-bombed.
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Final_Flight_1.png?raw=true" width= 400>
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Final_Flight_2.png?raw=true" width= 400>
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Final_Accel.png?raw=true" width= 400>
+
 
 * Review of criteria
 * analysis from both viewpoints of whether or not the criteria were met
