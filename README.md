@@ -193,19 +193,22 @@ This week was the start of the launch dropping mechanism. On the code side of th
 
 #### CAD Progress
 The dropping mechanism was relatively simple to assemble and complete, however I have to give much of the credit to Grant for this part as he was bored with code and wanted to try his hand at the CAD side of things. This mechanism was an addition to the already designed bracket that can be seen on v.1, we completed this by adding a solid ceiling and then mounting the servo on that. All together it didn't add that much weight as the servo was the only electronics added.
+
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Drop_Mechanism.png?raw=true" width= 500>
+
 ### Week 10 (3/11 - 3/15)
 #### Code Progress
 Not much happened in code this week because I had to do some last-minute Onshape and assembly so that we could launch before spring break. However, I did play around with the dropping height to figure out what a good test would be and settled upon 10 meters. 10 meters wasn't too high that it would get destroyed if it crashed but high enough that it would have time to recover and possibly glide before it hit the ground.
 
 #### CAD Progress
-This week was spent as all the others before launch week. Rushing to make final changes to the plane to make us as confident as possible in its flight. This time was spent finalizing the wings as those were the last on the plane. As the wings were held together by a rodn straight through the plane, the wings once assembled were stuck in the fuselage permanently. Until it inevitably exploded on impact after dropping 20 meters (Foreshadowing). 
+This week was spent as all the others before launch week. Rushing to make final changes to the plane to make us as confident as possible in its flight. This time was spent finalizing the wings as those were the last on the plane. As the wings were held together by a dowel straight through the plane, the wings once assembled were stuck in the fuselage permanently. Until it inevitably exploded on impact after dropping 20 meters (Foreshadowing). 
 
 ### Week 11 (3/18 - 3/22)
 #### Code Progress
 Launch week (and the last real week before spring break)! The difference in this test was that we were dropping it from the drone as others were just thrown from a hill. There were many problems in this test but I'll just stick to the code ones and let Dylan go over the physical problems. The problem with the code was that the servo wasn't spinning because a wire was unplugged. The pin was not put in solidly because the servo wasn't getting any voltage. In the future, I will solder the servo wires so that they can stay connected.
 
 #### CAD Progress
-For this launch we decided to try out the drone drop system as we were confident that the glider might fly with a little more height. Our first mistake was setting the height to 10 meters where it woudld drop. The next issue was the prop blast from the drone, the down force hit the wings as the drone took of and made the plane swing around wildly almost taking out the drone in the process. This wild swinging is what ended up breaking the drop pin and sending the plane plummeting to the ground. All in all it was a helpful test to show us the fatal flaws in our system. We need to find some way to seperate or immobilize the plane before it is dropped as well as move weight around in the plane to make it more stable in the air. This was the end of V.2 and we moved on to making the third version after this test.
+For this launch, we decided to try out the drone drop system as we were confident that the glider might fly with a little more height. Our first mistake was setting the height to 10 meters where it would drop. The next issue was the prop blast from the drone, the down-force hit the wings as the drone took off and made the plane swing around wildly almost taking out the drone in the process. This wild swinging is what ended up breaking the drop pin and sending the plane plummeting to the ground. All in all, it was a helpful test to show us the fatal flaws in our system. We need to find some way to separate or immobilize the plane before it is dropped as well as move weight around in the plane to make it more stable in the air. This was the end of V.2 and we moved on to making the third version after this test.
 
 <img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/v.2drop.gif?raw=true" width= 500>
 
@@ -248,6 +251,7 @@ This week was spent preparing the plane for dropping as mentioned above. The cod
 
 ### Final Launch
 #### Code 
+We were crossing our fingers all week for a good flight because this would be our last drop, no matter how it turned out. When we got on the field and turned the pico on, everything looked good because we could feel that  
 
 #### CAD 
 This week was the week of the final launch of our plane. With it being the most hopeful and balanced plane we had good hopes for the turnout of its flight. The results were honestly pretty hilarious, everything went perfectly smoothly with the dropping mechanism. Showing that our solution of lengthening the strings as to decrease the prop blast worked well. The plane also dropped just as it reached around 20 meters which was the set height for dropping. All of our code and mechanics worked perfectly as designed. However the plane did not have any forward momentum as it was dropped, so gravity took over and the plane nosedived into the ground, twice. However this was not as much of a failure as we would have thought, all of the parts of the plane that had previously failed in attempting to drop the plane are now working. This in of itself was an accomplishment. We got a pico in the air that recorded data as it came down, regardless of how fast that descent occured. 
