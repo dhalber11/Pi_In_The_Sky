@@ -272,10 +272,12 @@ This week was the week of the final launch of our plane. With it being the most 
 ##### Here is the less succesful second flight, both flights gathered clean data however. 
 
 
-### Reflection
+## Reflection
 
 ### Important Links
+[Data on Google Sheets](https://docs.google.com/spreadsheets/d/1bL5DFgwbq6VJjZEncVd7jcS2bUMOgV8yWQnZ7sQWMYE/edit#gid=0)
 
+[Onshape](https://cvilleschools.onshape.com/documents/af81e30b64439f7737562e43/w/710d40c85721227446428258/e/0485ef0950695975b60dd682)
 
 ### Review of Criteria
 * Survivability: the payload (RPi Pico, sensors, etc) must survive and function post-flight.
@@ -284,20 +286,17 @@ This week was the week of the final launch of our plane. With it being the most 
 * Data presentation: Show off the data you collected! Plot the data in some way that is meaningful to your project.
   
 Looking back at our criteria, our project was very successful because we met all the points we needed to. Our glider survived many drops with impressive durability. The pico and the payload never were damaged and stayed inside of the plane. We did make a custom circuit board with everything soldered except for modules such as the LSM and the Altimeter which slid into headers. Our glider did collect data from the time it was dropped until it landed. That data included acceleration, time, and altitude. The acceleration was very spotty and difficult to read so the main thing we graphed was altitude over time. We took averages of the altitude to make the curve smoother and more presentable. You can see in both of our altitude graphs that the one that was gliding for a bit flew for two more seconds than the one that just dive-bombed.
-<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Final_Flight_1.png?raw=true" width= 400>
-<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Final_Flight_2.png?raw=true" width= 400>
-<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Final_Accel.png?raw=true" width= 400>
-<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Final_Accel2.png?raw=true" width= 400>
 
-### Failures 
-This project like any other was not without its shortcomings. Many of which for us were small and easily managed simply with the process of improving throughout versions of the plane. On the CAD side, the main issue that we had was ratios in many different forms: CoG(Center of Gravity), and wing-to-body ratio were the main ones that gave us the most issue throughout. To tackle these we worked with making bigger wings during the version 2 designing process. When looking at the CoG, we first tried to tweak and make temporary fixes by adding bags and small weights and testing with them to see what worked best. As we learned more however we went with more permanent solutions such as in version 3 where we moved the entire main body housing the pico towards the tail of the plane. This was part of what allowed us to get the best flight that we did. Another large issue that we uncovered during our first launch was the prop-blast from the drone wildly swinging the plane back and forth and endangering the drone and the plane in the process. As seen in Week 11, the dropping mechanism failed before the height was reached, to solve this we simply greatly increased the length of the strings holding the plane and added a small weight to ensure the strings did not fly into the drone after drop. An issue and failure that we were not able to overcome however, was that of the code and our initial hopes for the acceleration data. We originally wanted to graph the acceleration double integrated to be able to see the graph of the flight path in 3D. This proved to be too much of a challenge for the schedule we were following and this would have turned into a much heavier code project, which was not suitable to our skillsets. 
+<img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Final_Flight_1.png?raw=true" width= 400> <img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Final_Flight_2.png?raw=true" width= 400><img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Final_Accel.png?raw=true" width= 400><img src= "https://github.com/dhalber11/Pi_In_The_Sky/blob/main/images/Flight_Accel2.png?raw=true" width= 400>
 
+### Difficulties 
+This project like any other was not without its shortcomings. Many of which for us were small and easily managed simply with the process of improving throughout versions of the plane. 
 
-* Review of criteria
-* analysis from both viewpoints of whether or not the criteria were met
-* List of failures and how we adapted
-* Successes we are proud of
-* Images to show progression(with comments)
-* 
- 
-
+##### On the CAD side, the main issue that we had was ratios in many different forms: CoG(Center of Gravity), and wing-to-body ratio were the main ones that gave us the most issue throughout. 
+* To tackle these we worked on making bigger wings during the version 2 designing process. When looking at the CoG, we first tried to tweak and make temporary fixes by adding bags and small weights and testing with them to see what worked best. As we learned more however we went with more permanent solutions such as in version 3 where we moved the entire main body housing the pico towards the tail of the plane. This was part of what allowed us to get the best flight that we did.
+    
+##### Another large issue that we uncovered during our first launch was the prop-blast from the drone wildly swinging the plane back and forth and endangering the drone and the plane in the process. As seen in Week 11, the dropping mechanism failed before the height was reached.
+* To solve this we simply greatly increased the length of the strings holding the plane and added a small weight to ensure the strings did not fly into the drone after drop.
+    
+##### An issue and failure that we were not able to overcome, was that of the code and our initial hopes for the acceleration data. We originally wanted to graph the acceleration double integrated to be able to see the graph of the flight path in 3D. 
+* This was too difficult of a problem to solve within our 6-month time frame. The acceleration data from our LSM was way too spotty to be graphed directly. We tried to work with Paul to create an error filter but it didn't work out. With the materials we had, acceleration was too hard to graph so we pivoted to altitude.
